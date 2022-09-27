@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "object-count",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

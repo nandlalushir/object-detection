@@ -1,0 +1,7 @@
+{
+  "name": "object-count",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
