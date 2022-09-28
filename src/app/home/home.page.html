@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div style="text-align: center">
+    <h1>Object Detection</h1>
+    <div [hidden]="isCanvas">
+      <video hidden id="vid" width="300" height="500"></video>
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+</ion-content>
+<ion-button (click)="openCanvas()">
+  <ion-icon slot="start" name="Camera"></ion-icon>
+  Open Camera
+</ion-button>

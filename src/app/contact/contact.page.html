@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Contact </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content> </ion-content>
+
+<ion-content padding>
+  <div>
+    <div class="horizontal">
+      <p class="font-size-16">Like, Follow and Share</p>
+    </div>
+    <div class="horizontal">
+      <div class="social-icons" (click)="socialMedia('FACEBOOK')">
+        <ion-icon name="logo-facebook" style="color: #3b5998"></ion-icon>
+      </div>
+      <div class="social-icons" (click)="socialMedia('INSTAGRAM')">
+        <ion-icon name="logo-instagram" style="color: #fb3958"></ion-icon>
+      </div>
+      <div class="social-icons" (click)="socialMedia('TWITTER')">
+        <ion-icon name="logo-twitter" style="color: #00acee"></ion-icon>
+      </div>
+      <div class="social-icons" (click)="socialMedia('YOUTUBE')">
+        <ion-icon name="logo-youtube" style="color: #ff0000"></ion-icon>
+      </div>
+    </div>
+  </div>
+</ion-content>
